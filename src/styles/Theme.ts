@@ -43,7 +43,7 @@ export const Theme = {
                     font-weight: 600;`,
 
       'nav-link': `font-size: 24px;
-                   font-weight: 600`
+                   font-weight: 400`
     }
 
 }
