@@ -6,7 +6,7 @@ O dasafio consiste em criar a UI no frontend a partir do design oferecido no Fig
 ## Codelândia
 Codelândia é uma comunidade que te ajuda a aprender mais por meio de desafios. Basicamente em um período de tempo é lançado um desafio e você faz esse desafio para aprendizado com a tecnologia que quiser. A comunidade também tem memes, materiais de estudo, networking e muito mais :)
 
-## Tercnologias usadas no projeto
+## Tecnologias usadas no projeto
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite(*bundle*)](https://vitejs.dev/)
