@@ -9,7 +9,7 @@ export const Card = styled.article<CardType>`
   flex-direction: column;
   gap: 1rem;
 
-  width: clamp(360px, 70%, 900px);
+  width: clamp(350px, 90vw, 900px);
 
   padding: 1rem;
 
