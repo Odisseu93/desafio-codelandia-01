@@ -3,9 +3,9 @@ type NavProps = {
 } 
 
 const Nav = ({ children }: NavProps) => (
-  <nav>
-    {children}
-  </nav>
+	<nav>
+		{children}
+	</nav>
 )
 
-export default Nav;
+export default Nav

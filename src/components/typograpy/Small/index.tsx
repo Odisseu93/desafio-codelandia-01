@@ -5,7 +5,7 @@ type SmallProps = {
 }
 
 const Small = ({ children }: SmallProps) => (
-  <C.Small>{children}</C.Small>
+	<C.Small>{children}</C.Small>
 )
 
-export default Small;
+export default Small

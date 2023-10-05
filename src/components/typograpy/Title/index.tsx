@@ -5,7 +5,7 @@ type TitleProps = {
 }
 
 const Title = ({ children }: TitleProps) => (
-  <C.Title>{children}</C.Title>
+	<C.Title>{children}</C.Title>
 )
 
-export default Title;
+export default Title

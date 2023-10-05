@@ -17,7 +17,7 @@ type CardProps = {
 const Card = ({ date, title, paragraph }: CardProps) => {
 	const [liked, setLiked] = useState<boolean>(false)
  
-  const changeReaction = ()=> setLiked(!liked)
+	const changeReaction = ()=> setLiked(!liked)
 
 	return (
 		<C.Card liked={liked}>

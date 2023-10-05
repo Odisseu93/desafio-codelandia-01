@@ -6,13 +6,13 @@ type InputProps = {
 } & React.ComponentProps<'input'>
 
 const Input = ({label, type, ...rest}: InputProps) => {
-  const id = useId()
-  return (
-    <>
-    {label && <label htmlFor={id}>{label}</label>}
-      <input id={id} type={type} {...rest}/>
-    </>
-  );
-};
+	const id = useId()
+	return (
+		<>
+			{label && <label htmlFor={id}>{label}</label>}
+			<input id={id} type={type} {...rest}/>
+		</>
+	)
+}
 
 export default Input

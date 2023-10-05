@@ -1,5 +1,5 @@
-import { Theme } from '../../../styles/Theme';
-import styled from 'styled-components';
+import { Theme } from '../../../styles/Theme'
+import styled from 'styled-components'
 
 export const Small = styled.small`
   color: ${Theme.colors.dark['20']};

@@ -5,7 +5,7 @@ type ParagraphProps = {
 }
 
 const Paragraph = ({ children }: ParagraphProps) => (
-  <C.Paragraph>{children}</C.Paragraph>
+	<C.Paragraph>{children}</C.Paragraph>
 )
 
-export default Paragraph;
+export default Paragraph
