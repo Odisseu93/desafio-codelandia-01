@@ -1,27 +1,66 @@
-# React + TypeScript + Vite
+# Desafio Codelândia - 01
+![image](https://github.com/Odisseu93/desafio-codelandia-01/assets/76600539/d88dd50f-8d73-4b19-89ec-80cabedff79b)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O dasafio consiste em criar a UI no frontend a partir do design oferecido no Figma
 
-Currently, two official plugins are available:
+## Codelândia
+Codelândia é uma comunidade que te ajuda a aprender mais por meio de desafios. Basicamente em um período de tempo é lançado um desafio e você faz esse desafio para aprendizado com a tecnologia que quiser. A comunidade também tem memes, materiais de estudo, networking e muito mais :)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tercnologias usadas no projeto
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite(*bundle*)](https://vitejs.dev/)
+- [bun(*runtime*)](https://bun.sh/)
+- [Styled Components](https://styled-components.com/)
 
-## Expanding the ESLint configuration
+## Executando localmente
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+para rodar o projeto, siga os passo abaixo:
 
-- Configure the top-level `parserOptions` property like this:
+0. instale o bun
+*([link da documentação](https://bun.sh/docs/installation))*
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone o repositório do projeto:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/Odisseu93/desafio-codelandia-01
+   ```
+
+2. navegue até a pasta raiz do projeto
+
+   ```bash
+   cd app/desafio-codelandia-01
+   ```
+
+3. Instale todas as dependencias:
+
+   ```bash
+   bun install
+   ```
+
+4. Inicie o development server:
+
+   ```bash
+   bun dev
+   ```
+
+## Design
+**Figma: [🔗️](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=201979%3A3620&mode=dev)**
+
+**Autor: [Iuri Silva](https://www.instagram.com/iuricode/)**
+
+## Live site
+**[🔗️](https://desafio-codelandia-01-indol.vercel.app/)**
+
+## Desenvolvedor
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/76600539/235897309-88ab21df-d0be-4905-829c-36ab68ebc2e8.png" alt="developer: Ulisses Silvério"    width="200px" align="center"/>
+</div>
+<br>
+<div align="center" margin="50px">
+ <a href="https://www.ulisses.tec.br" align="center">
+   site
+</a>
+</div>
+
